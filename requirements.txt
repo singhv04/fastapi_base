@@ -1,0 +1,10 @@
+fastapi>=0.68.0,<0.69.0
+uvicorn>=0.15.0,<0.16.0
+opencv-python
+tqdm
+scikit-image
+Pillow
+scipy
+pandas
+tifffile
+#histomicstk --find-links https://girder.github.io/large_image_wheels

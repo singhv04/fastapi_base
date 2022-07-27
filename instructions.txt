@@ -1,0 +1,9 @@
+# for testing the server
+docker run -d --name fastapi_server -p 8034:8034 test_fastapi:latest
+# check http://localhost:8034/
+http://localhost:8034/slides/3?q=query
+
+# building docker image from dockerfile
+docker build -t test_fastapi_v1 .
+# check http://localhost:8034/
+docker run -d --name testfastapi_server -p 8034:8034 test_fastapi_v1:latest
